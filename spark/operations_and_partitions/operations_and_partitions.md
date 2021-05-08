@@ -1,4 +1,6 @@
-# Spark Operations: A Deepdive
+# Spark Transformation and Action: A Deep Dive
+
+A deep dive in Spark transformation and action is essential for writing effective spark code. This article provides a brief overview to Spark transformation and action.
 
 ## Table of Contents
   - [Primer](#primer)
@@ -131,3 +133,14 @@ The benefit of doing it backwards can be explained as follows. While executing t
 8. read
 
 The steps 1-4 belongs to the first stage and the rest of the steps belongs to the second stage. When the code is executed once, the driver node knows that the output of the shuffle writes are already available to the executors, for a reasonable period of time. If the code is executed more times within that duration, it will execute from the second stage directly, which improve runtime. Furthermore, if caching is used at stage at any transformation operation, it will execute the tasks only after that operation.
+
+## Futher Reading
+
+For more in-depth understanding, checkout the following materials:
+
+1. [RDD Programming Guide](https://spark.apache.org/docs/3.1.1/rdd-programming-guide.html#resilient-distributed-datasets-rdds)
+2. [Spark SQL, DataFrames and Datasets Guide](http://spark.apache.org/docs/latest/sql-programming-guide.html)
+3. [PySpark Documentation](https://spark.apache.org/docs/latest/api/python/index.html)
+4. [Cluster Mode Overview](https://spark.apache.org/docs/latest/cluster-overview.html)
+5. [Tuning Spark](https://spark.apache.org/docs/latest/tuning.html)
+6. [Deep Dive into Spark SQL’s Catalyst Optimizer](https://databricks.com/blog/2015/04/13/deep-dive-into-spark-sqls-catalyst-optimizer.html)
