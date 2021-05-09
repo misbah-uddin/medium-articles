@@ -45,7 +45,7 @@ Figure 3: A Spark action that counts the number of rows.
 
 ## Lazy and Eager Execution
 
-Transformations are evaluated in **lazy** fashion. This means no Spark jobs are triggered, no matter the number of transformations are scheduled. Snippet 1 shows four transformation operations on `people` dataframe, which has not triggered any jobs, but return the expected skeleton of the result. 
+Transformations are evaluated in **lazy** fashion. This means no Spark jobs are triggered, no matter the number of transformations are scheduled. Snippet 1 shows four transformation operations on `people` DataFrame, which has not triggered any jobs but returns the expected skeleton of the result. 
 
 ```python
 > female_in_twenties = people
