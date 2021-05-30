@@ -141,6 +141,10 @@ Figure 3: Classes in Apache Spark SQL API
 
 While scanning the API documentation during preparation phase, notice the order of the API classes, as depicted in Figure 3. The API documentation during the exam is loaded pretty much the same way, but all laid out in a massive file structure. There is a scroll button in the interface that you can use to jump up and down. There is no search function. Such a prehistoric interface, made it very hard to navigage quickly. I would recommend you to create a pdf version of the documentation from the [Apache spark source codes](https://github.com/apache/spark/tree/master/python/docs/source/reference). To build the pdf version, you can follow the guide [here](https://github.com/apache/spark/tree/master/docs). Once you have created the pdf, you can practice navigating that document to become a bit more efficient. 
 
+Here is a link to an [old version of a sample exam](https://databricks-prod-cloudfront.cloud.databricks.com/public/793177bc53e528530b06c78a4fa0e086/0/6221173/100020/latest.html), that you can use to practice working with the API documentation. 
+
 ## Remarks
 
-If you pass the certificate, you will be notified immediate. The certificate and the badge arrives within a couple of days.
+If you pass the certificate, you will be notified immediate. The certificate and the badge arrives within a couple of days. From my side, I was suppose to make a road trip the day after the next day for which I made zero preparation due to the exam preparation. So, I moved to the road trip problem right after. However, I took a moment to realize that I do not have to take the exam again. 
+
+Before the exam, I felt that I was underprepared. It will likely be the case for you, if you have a full time job and some other things in life happening in parallel. Like all exams, there is no guarantee that you will pass the first time, despite your best effort. Its okay if you fail. I am sure you will crack it the next time. Everything should be tried at least twice. 
